@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './list/list.component';
 import { FromeventComponent } from './observable/fromevent/fromevent.component';
 import { IntervalComponent } from './observable/interval/interval.component';
+import { MapComponent } from './observable/map/map.component';
 import { ObservableComponent } from './observable/observable.component';
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
         { path: '', component: ListComponent},
         {path: 'fromevent', component: FromeventComponent},
         {path: 'interval', component: IntervalComponent},
+        {path: 'map', component: MapComponent},
         
       ]},
   { path: '**', component: ListComponent}
