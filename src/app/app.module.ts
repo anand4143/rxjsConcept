@@ -11,6 +11,7 @@ import { FromeventComponent } from './observable/fromevent/fromevent.component';
 import { IntervalComponent } from './observable/interval/interval.component';
 import { MapComponent } from './observable/map/map.component';
 import { OfComponent } from './observable/of/of.component';
+import { FromComponent } from './observable/from/from.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { OfComponent } from './observable/of/of.component';
     IntervalComponent,
     MapComponent,
     OfComponent,
+    FromComponent,
   ],
   imports: [
     BrowserModule,
