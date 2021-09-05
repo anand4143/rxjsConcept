@@ -7,6 +7,7 @@ import { IntervalComponent } from './observable/interval/interval.component';
 import { MapComponent } from './observable/map/map.component';
 import { ObservableComponent } from './observable/observable.component';
 import { OfComponent } from './observable/of/of.component';
+import { ToArrayComponent } from './observable/to-array/to-array.component';
 
 const routes: Routes = [
   { path: 'observable', component: ObservableComponent,
@@ -17,6 +18,7 @@ const routes: Routes = [
         {path: 'map', component: MapComponent},
         {path: 'of', component: OfComponent},
         {path: 'from', component: FromComponent},
+        {path: 'toArray', component: ToArrayComponent},
         
       ]},
   { path: '**', component: ListComponent}
